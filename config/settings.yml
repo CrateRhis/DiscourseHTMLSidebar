@@ -3,6 +3,6 @@ plugins:
     default: false
     client: true
   sidebar_content:
-    type: string
+    type: html
     default: ''
     client: true
