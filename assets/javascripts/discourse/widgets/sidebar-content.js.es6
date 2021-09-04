@@ -1,4 +1,5 @@
 import { createWidget } from 'discourse/widgets/widget';
+import { RawHtml } from 'discourse/widgets/raw-html';
 import { h } from 'virtual-dom';
 
 createWidget('sidebar-content',
@@ -7,7 +8,7 @@ createWidget('sidebar-content',
 
 		html(attrs)
 		{
-			return h('div', {innerHTML: Discourse.SiteSettings.sidebar_content});
+			return new RawHtml({ html: `<div>${this.siteSettings.sidebar_content}</div>` });
 		},
 	}
 );
