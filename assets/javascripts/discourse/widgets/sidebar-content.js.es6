@@ -1,5 +1,5 @@
 import { createWidget } from 'discourse/widgets/widget';
-import { RawHtml } from 'discourse/widgets/raw-html';
+import RawHtml from 'discourse/widgets/raw-html';
 import { h } from 'virtual-dom';
 
 createWidget('sidebar-content',
