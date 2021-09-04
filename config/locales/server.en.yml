@@ -1,0 +1,4 @@
+en:
+  site_settings:
+    sidebar_enable: "Enable the sidebar."
+    sidebar_content: "HTML content to show in the sidebar."

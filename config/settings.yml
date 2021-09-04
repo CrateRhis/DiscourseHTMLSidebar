@@ -1,0 +1,8 @@
+plugins:
+  sidebar_enable:
+    default: false
+    client: true
+  sidebar_content:
+    type: list
+    default: ''
+    client: true
