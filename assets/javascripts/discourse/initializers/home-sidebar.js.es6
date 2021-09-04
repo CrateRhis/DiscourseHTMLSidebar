@@ -1,11 +1,5 @@
-export default
-{
-
+export default {
   name: 'home-sidebar',
-  
-  initialize(
-  {
-
+  initialize() {
   }
-  
-}
+};
